@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@chainlink/contracts": "^0.5.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "erc721a": "^4.2.3",
+    "hardhat": "^2.11.2"
+  }
+}
