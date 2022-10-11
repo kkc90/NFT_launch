@@ -9,6 +9,11 @@ require('dotenv').config();
 const ALCHEMY_API_KEY = process.env.ALCHEMY_API_KEY;
 const GOERLI_PRIVATE_KEY = process.env.GOERLI_PRIVATE_KEY;
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY;
+const INFURA_API_KEY = process.env.INFURA_API_KEY;
+
+const ALCHEMY_URL = `https://eth-goerli.alchemyapi.io/v2/${ALCHEMY_API_KEY}`;
+const INFURA_URL = `https://goerli.infura.io/v3/${INFURA_API_KEY}`;
+
 
 module.exports = {
   defaultNetwork: "localhost",
@@ -23,7 +28,7 @@ module.exports = {
       url: "http://127.0.0.1:8545"
     },
     goerli: {
-      url: `https://eth-goerli.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
+      url: ALCHEMY_URL,
       accounts: [GOERLI_PRIVATE_KEY]
     },
   },

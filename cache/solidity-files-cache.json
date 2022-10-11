@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/noms/launchNFT/NFT_launch/contracts/VRFTest.sol": {
-      "lastModificationDate": 1664525392475,
-      "contentHash": "e2f1dd84bdbd4aa4d4bbe918a3f3bc8f",
+      "lastModificationDate": 1664947628729,
+      "contentHash": "3b87b9457e3078e79e8be68ffee1a9a5",
       "sourceName": "contracts/VRFTest.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -257,8 +257,8 @@
       ]
     },
     "/home/noms/launchNFT/NFT_launch/contracts/LaunchNFT.sol": {
-      "lastModificationDate": 1664900134827,
-      "contentHash": "0a9b5bab8b5c83840994e78bc206d9b3",
+      "lastModificationDate": 1664947617117,
+      "contentHash": "7a09c2663bad0f5dabe0bea7856ccb70",
       "sourceName": "contracts/LaunchNFT.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -810,8 +810,8 @@
       ]
     },
     "/home/noms/launchNFT/NFT_launch/contracts/RaffleVRF.sol": {
-      "lastModificationDate": 1664841283328,
-      "contentHash": "9fc17b3fb123afcc1b64b2bc6c66ee93",
+      "lastModificationDate": 1664947651653,
+      "contentHash": "f06231bae8afc3328e2aab204ac120e2",
       "sourceName": "contracts/RaffleVRF.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -921,8 +921,8 @@
       ]
     },
     "/home/noms/launchNFT/NFT_launch/contracts/TestGas.sol": {
-      "lastModificationDate": 1664901131272,
-      "contentHash": "657d7bb9abb227aac709a24fa8e4b811",
+      "lastModificationDate": 1664947623185,
+      "contentHash": "b4e8606895f614b7d31fd14b6177a241",
       "sourceName": "contracts/TestGas.sol",
       "solcConfig": {
         "version": "0.8.9",
@@ -993,6 +993,46 @@
       ],
       "artifacts": [
         "console"
+      ]
+    },
+    "/home/noms/launchNFT/NFT_launch/contracts/LaunchNFTv2.sol": {
+      "lastModificationDate": 1665473406773,
+      "contentHash": "ea10cf837dab4db969565d05f5cfc530",
+      "sourceName": "contracts/LaunchNFTv2.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/ConfirmedOwner.sol",
+        "@chainlink/contracts/src/v0.8/VRFV2WrapperConsumerBase.sol",
+        "erc721a/contracts/ERC721A.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "LaunchNFTv2"
       ]
     }
   }
