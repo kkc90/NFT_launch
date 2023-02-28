@@ -7,15 +7,13 @@ async function main() {
 
     // const lockedAmount = hre.ethers.utils.parseEther("1");
 
-    const NFT = await hre.ethers.getContractFactory("LaunchNFTv2");
-    const nft = await NFT.deploy({ gasPrice: 2500000000 });
+    const RAFFLE = await hre.ethers.getContractFactory("Raffle");
+    const raffle = await RAFFLE.deploy();
 
-    // console.log(nft);
-
-    await nft.deployed();
+    await raffle.deployed();
 
     console.log(
-        `LaunchNFTv2 deployed to ${nft.address}`
+        `Raffle deployed to ${raffle.address}`
     );
 }
 

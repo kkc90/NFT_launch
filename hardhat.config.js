@@ -22,13 +22,49 @@ module.exports = {
     apiKey: ETHERSCAN_API_KEY,
   },
   networks: {
-    hardhat: {
-    },
     localhost: {
-      url: "http://127.0.0.1:8545"
+      mining: {
+        auto: false,
+        interval: 15000,
+        mempool: {
+          order: "priority"
+        }
+      },
+      url: "http://127.0.0.1:8545",
+      accounts: {
+        mnemonic: "test test test test test test test test test test test junk",
+        path: "m/44'/60'/0'/0",
+        initialIndex: 0,
+        count: 20,
+        accountsBalance: "10000000000000000000000",
+        passphrase: "",
+      },
+      blockGasLimit: 10_000_000,
+      initialBaseFeePerGas: 10,
+      allowUnlimitedContractSize: true,
+    },
+    hardhat: {
+      mining: {
+        auto: false,
+        interval: 15000,
+        mempool: {
+          order: "priority"
+        }
+      },
+      accounts: {
+        mnemonic: "test test test test test test test test test test test junk",
+        path: "m/44'/60'/0'/0",
+        initialIndex: 0,
+        count: 20,
+        accountsBalance: "1000000000000000000000000",
+        passphrase: "",
+      },
+      blockGasLimit: 10_000_000,
+      initialBaseFeePerGas: 10,
+      allowUnlimitedContractSize: true,
     },
     goerli: {
-      url: ALCHEMY_URL,
+      url: INFURA_URL,
       accounts: [GOERLI_PRIVATE_KEY]
     },
   },

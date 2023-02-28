@@ -1,3 +1,515 @@
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlockNumber())
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlockNumber())
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlockNumber())
+let contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlockNumber())
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlockNumber())
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+let contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+(await ethers.provider.getBlockNumber())
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlockNumber())
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlockNumber())
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest'))
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await contract.launchStartTime()).add(await contract.durationOfLaunch()).sub((await ethers.provider.getBlock('latest')).timestamp)
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+await contract.isParticipateActive()
+(await contract.getParticipants()).length
+(await contract.launchStartTime()).add(await contract.durationOfLaunch()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+contract = await ethers.getContractAt("LaunchNFTa", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.getListOfParticipants()
+await contract.listOfParticipants()
+await contract.tempList
+await contract.tempList()
+await contract.getWinners()
+await contract.settlement({gasLimit:5000000})
+await contract.selectWinnersV2(1, {gasLimit:3000000})
+await contract.selectWinnersV2(697, {gasLimit:3000000})
+(await contract.getParticipants()).length
+await contract.selectWinnersV2(1000, {gasLimit:3000000})
+await contract.selectWinnersV2(1000, {gasLimit:5000000})
+await contract.selectWinnersV2(2000, {gasLimit:5000000})
+await contract.selectWinnersV2(1000, {gasLimit:5000000})
+await contract.selectWinnersV2(100, {gasLimit:5000000})
+await contract.selectWinnersV2(10)
+await contract.selectWinnersV2(50)
+await contract.selectWinnersV2(100)
+await contract.selectWinnersV2(500)
+(await contract.getParticipants()).length
+await contract.selectWinnersV2(1000)
+await contract.selectWinnersV2()
+(await contract.launchStartTime()).add(await contract.durationOfLaunch()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.stopLaunch()
+(await contract.launchStartTime()).add(await contract.durationOfLaunch()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.TOTAL_SUPPLY()
+await contract.isParticipateActive()
+stopTx.wait()
+stopTx
+await contract.isParticipateActive()
+stopTx
+await contract.isParticipateActive()
+stopTx = await raffle.stopLaunch({gasLimit: 1000000})
+stopTx = await raffle.stopLaunch()
+deployer.address
+await raffle.durationOfLaunch()
+await raffle.stopLaunch()
+const raffle = RAFFLE.connect(deployer);
+const RAFFLE = await ethers.getContractAt("LaunchNFTa","0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const [deployer] = await ethers.getSigners();
+(await contract.launchStartTime()).add(await contract.durationOfLaunch()).sub((await ethers.provider.getBlock('latest')).timestamp)
+contract.stopLaunch()
+await ethers.provider.getSigner()
+await ethers.provider.getSigner()[0]
+ethers.provider.getSigner()
+await contract.isParticipateActive()
+contract.stopLaunch()
+await contract.isParticipateActive()
+contract.stopLaunch()
+await contract.isParticipateActive()
+await contract.stopLaunch()
+await contract.TOTAL_SUPPLY()
+contract.TOTAL_SUPPLY()
+contract= await ethers.getContractAt("LaunchNFTa", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
+await contract.stopLaunch()
+(await contract.launchStartTime()).add(await contract.durationOfLaunch()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.stopLaunch()
+(await contract.launchStartTime()).add(await contract.durationOfLaunch()).sub((await ethers.provider.getBlock('latest')).timestamp)
+contract= await ethers.getContractAt("LaunchNFTa", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
+await contract.selectWinnersV2()
+await contract.stopLaunch()
+(await contract.launchStartTime()).add(await contract.durationOfLaunch()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.getElapsedSaleTime()
+contract= await ethers.getContractAt("LaunchNFTa", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
+(await contract.launchStartTime()).add(await contract.durationOfLaunch()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.launchStartTime()
+awiat contract.launchStartTime()
+awiat contract.launchStartTime
+awiat contract.launchStartTime()
+(await contract.getLaunchStartTime().add(await contract.getDurationOfLaunch())).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await contract.getlaunchStartTime().add(await contract.getdurationOfLaunch())).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await contract.launchStartTime().add(await contract.durationOfLaunch())).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.isParticipateActive()
+await contract.getParticipants()
+await contract.listOfParticipants()
+await contract.listOfParticipants.length
+await contract.listOfParticipants
+await contract.listOfParticipants()
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await contract.countOfTickets();
+contract= await ethers.getContractAt("LaunchNFTa", "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+contract= await ethers.getContractAt("BatchAuction", "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await contract.numBids();
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await contract.numBids();
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.numBids();
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
+await contract.numBids();
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.numBids();
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.numBids();
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512")
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.numBids();
+contract= await ethers.getContractAt("BatchAuction", "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+await contract.numBids();
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+contract= await ethers.getContractAt("BatchAuction", "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.numBids();
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await contract.numBids();
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await contract.numBids();
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+await contract.numBids();
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await contract.numBids();
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+await contract.numBids();
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+(await contract.AUCTION_END_TIME()).sub((await ethers.provider.getBlock('latest')).timestamp)
+await contract.AUCTION_END_TIME()
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+await contract.isAuctionActive()
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await contract.numBids();
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+contract= await ethers.getContractAt("BatchAuction", "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+await contract.numBids();
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await contract.numBids();
+await contract.AVAILABLE_SUPPLY()
+contract= await ethers.getContractAt("BatchAuction", "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+await ethers.provider.getBalance("0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9")
+await ethers.provider.getBalance("0xdAaE90bca090Bc343A05Daa0Ecf60aB9fB61c5Ba")
+await ethers.provider.getBalance("0x110C31A827a66795276Eb8fE10cCEb579BA06224")
+contract= await ethers.getContractAt("BatchAuction", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+await ethers.provider.getBalance("0xD9d955a0491b2F96f3c64bF57Ea96770075a558C")
+await ethers.provider.getBalance("0xFA73AfF0072ef4Eab3c9Fb0a41E1059a733A8D73")
+await ethers.getBalance("0xFA73AfF0072ef4Eab3c9Fb0a41E1059a733A8D73")
+await contract.AVAILABLE_SUPPLY()
+contract= await ethers.getContractAt("BatchAuction", "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82");
+await contract.AVAILABLE_SUPPLY()
+contract.AVAILABLE_SUPPLY()
+await contract.contract.AVAILABLE_SUPPLY()
+contract.contract.AVAILABLE_SUPPLY()
+contract.contract.AVAILABLE_SUPPLY
+contract.contract.AVAILABLE_SUPPLY()
+contract= await ethers.getContractAt("BatchAuction", "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9");
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+await contract.mintCount()
+await contract.balanceOf("0x4BcB7FFD7Db40C821Fb458Cc2F77dA95Db127127")
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.balanceOf("0x4BcB7FFD7Db40C821Fb458Cc2F77dA95Db127127")
+await contract.balanceOf("0x41bf6ec9B08BA472F3Ca6e532f0cfaE7409be9cf")
+await contract.balanceOf(0)
+await contract.ownerOf(999)
+await contract.ownerOf(0)
+await contract.mintCount()
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.ownerOf(1)
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await contract.mintCount()
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+estimatedGas = await provider.getFeeData();
+estimatedGas = await ethers.provider.getFeeData();
+estimatedGas = await provider.getFeeData();
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+clear
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+clear
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).baseFeePerGAs
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+pending = (await ethers.provider.send("eth_pendingTransactions")).length
+pending = await ethers.provider.send("eth_pendingTransactions");
+let pending = await ethers.provider.send("eth_pendingTransactions");
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+pending
+let pending = await ethers.provider.send("eth_pendingTransactions");
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest')).gasLimit
+(await ethers.provider.getBlock('latest')).gasUsed / (await ethers.provider.getBlock('latest').gasLimit
+(await ethers.provider.getBlock('latest')).gasUsed
+(await ethers.provider.getBlock('latest')).baseFeePerGas
+await ethers.provider.getBlock('latest')
+await ethers.provider.getBlockNumber()
+await ethers.provider.getBlockNumber
+await ethers.provider.getBlockNumber()
+await ethers.provider.getBlockNumber
+await ethers.provider.getNetwork()
+await ethers.provider.getNetwork
+(await ethers.provider.getBlock(10)).transactions.length
+(await ethers.provider.getBlock(10)).transactions.lengt
+(await ethers.provider.getBlock(10)).transactions.length
+(await ethers.provider.getBlock(10)).baseFeePerGas
+(await ethers.provider.getBlock(100)).baseFeePerGas
+(await ethers.provider.getBlock(1)).baseFeePerGas
+(await ethers.provider.getBlock(0)).baseFeePerGas
+await ethers.provider.getBlock(0)
+let provider = new ethers.provider.JsonRpcProvider(network.config.url)
+let provider = new ethers.provider.JsonRpcProvider(network.config.url);
+eth_accounts
+await contract.mintCount()
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0xDF8340475A4a8490C763B88f7e88179Ec0DfaC1C");
+await contract.mintCount()
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0xe70f935c32dA4dB13e7876795f1e175465e6458e");
+await contract.mintCount()
+await contract.calculatePrice()
+await contract.mintCount()
+await contract.calculatePrice()
+await contract.mintCount()
+await contract.calculatePrice()
+await contract.mintCount()
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.mintCount()
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0x3C15538ED063e688c8DF3d571Cb7a0062d2fB18D");
+await contract.calculatePrice()
+await contract.mintCount()
+contract= await ethers.getContractAt("DutchAuction", "0x4b6aB5F819A515382B0dEB6935D793817bB4af28");
+await contract.mintCount()
+await contract.calculatePrice()
+await contract.mintCount()
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.mintCount()
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.mintCount()
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.mintCount()
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.calculatePrice()
+await contract.mintCount()
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.calculatePrice()
+(await ethers.provider.getBlock('latest')).timestamp
+await contract.startTime()
+await contract.start
+await contract.calculatePrice()
+await contract.getstartTime()
+await contract.statTime()
+await contract.statTime
+(await ethers.provider.getBlock('latest')).timestamp
+await ethers.provider.getBlock('latest').timestamp
+await ethers.provider.getBlock('latest').timestamp()
+await ethers.provider.getBlock('latest').timestamp
+await ethers.provider.getBlock('latest').timestmap
+await ethers.provider.getBlock('latest')
+ethers.provider.getBlock('latest')
+const { ethers } = require("hardhat");
+block.timestamp
+contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0x81f4f47aa3bBd154171C877b4d70F6C9EeCAb216");
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0xaE2abbDE6c9829141675fA0A629a675badbb0d9F");
+await contract.calculatePrice()
+contract= await ethers.getContractAt("DutchAuction", "0x0F560bc9c8e670EEbb83A59b97a138aF4f18e632");
+let contract= await ethers.getContractAt("DutchAuction", "0x0F560bc9c8e670EEbb83A59b97a138aF4f18e632");
+await contract.calculatePrice()
+let contract= await ethers.getContractAt("DutchAuction", "0x87411145423fDf9123040799F9Ff894153339a75");
+await network.provider.send("eth_blockNumber")
+await network.provider
+await contract.calculatePrice()
+contract
+let contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.isAuctionActive();
+contract
+let contract= await ethers.getContractAt("DutchAuction", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+ethers.utils.formatEther(await ethers.provider.getBalance("0x44a33Acd4b657efe18Bf969A850d9ad82D09Cbe1"),"ether")
+await ethers.provider.getBalance("0x44a33Acd4b657efe18Bf969A850d9ad82D09Cbe1")
+await ethers.provider.getBalance("0xf1b135fb230db931317c19dcbD8b641A467EC1ed")
+await ethers.provider.getBalance("0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199")
+await ethers.provider.getBalance("0x6D38Ce37C640308b41d102C1F262224235BF3C72")
+await ethers.provider.getBalance("0x674B4df9eaA80194568740E2e4196ae39620FC44")
+await ethers.provider.getBalance("0xe938B5e8914a67ac44c451ea789B0c3c176add97")
 await contract.ownerOf(4)
 await contract.ownerOf(3)
 await contract.ownerOf(2)
@@ -93,6 +605,67 @@ await contract.tempList(0)
 await contract.tempList(14)
 await contract.getRandomSeed()
 (await contract.getWinners()).length
+await contract.getWinners().length
+await contract.getWinners()
+await contract.numOfwinners()
+await contract.getWinners()
+await contract.selectWinners({gasLimit: 30000000})
+await contract.selectWinners({gasLimit: 30000000000})
+await contract.selectWinners({gasLimit: 30000000})
+await contract.selectWinners()
+await contract.setRandomSeed(3)
+await contract.initAll()
+await contract.getWinners()
+await contract.selectWinners()
+await contract.setRandomSeed(2)
+await contract.getWinners()
+await contract.initAll()
+await contract.getWinners()
+await contract.selectWinners()
+await contract.setRandomSeed(1)
+var contract = await ethers.getContractAt("TestGas", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await contract.getWinners()
+await contract.selectWinners()
+await contract.setRandomSeed(3)
+await contract.getWinners()
+await contract.selectWinners()
+await contract.getRandomSeed()
+await contract.setRandomSeed(2)
+await contract.selectWinners()
+await contract.getRandomSeed()
+await contract.setRandomSeed(1)
+await contract.getRandomSeed()
+var contract = await ethers.getContractAt("TestGas", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+await contract.selectWinners()
+await contract.getRandomSeed()
+await contract.setRandomSeed(3)
+await contract.selectWinners()
+await contract.getRandomSeed()
+await contract.setRandomSeed(1)
+await contract.tempList(6)
+await contract.tempList(5)
+await contract.tempList(4)
+await contract.tempList(3)
+await contract.tempList(2)
+await contract.tempList(1)
+await contract.tempList(10)
+await contract.tempList(12)
+await contract.tempList(13)
+await contract.tempList(14)
+await contract.tempList(0)
+contract.tempList()
+contract.tempList
+contract.tempLis
+await contract.tempList()
+await contract.tempList
+await contract.selectWinners()
+await contract.getRandomSeed()
+contract.getRandomSeed()
+await contract.setRandomSeed(2)
+contract.setRandomSeed(2);
+contract
+var contract = await ethers.getContractAt("TestGas", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+var contract = await ethers.getContractAt("Raffle", "0x5FbDB2315678afecb367f032d93F642f64180aa3");).length
 await contract.getWinners().length
 await contract.getWinners()
 await contract.numOfwinners()

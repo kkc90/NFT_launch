@@ -1,2 +1,17 @@
+# Package Directory
 node_modules
+
+
+# ETC Directory
+etc
+
+# Directory for Experiment logs - Large files
+logs
+tmp_20221216_raffle_final
+
+# Outputs
+artifacts
+cache
+
+# Enviroment file
 .env
